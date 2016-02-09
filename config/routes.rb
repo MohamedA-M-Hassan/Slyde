@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'likes/create'
+
   get 'files/images'
 
   root :to => redirect('/documents/')
